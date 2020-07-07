@@ -1,7 +1,6 @@
-import datetime
-import time
-
 from selenium import webdriver
+from openpyxl import load_workbook
+
 
 click_me = ["Сервисы для поставщиков и потребителей информации",
             "Новости",
@@ -10,11 +9,6 @@ click_me = ["Сервисы для поставщиков и потребите�
             "Кабинет органа, назначающего меры социальной поддержки",
             "Личный кабинет гражданина",
             "Кабинет аналитика"]
-
-file = datetime.datetime.now().strftime('%d%m_%H') + 'h_Win_10.txt'
-f = open(f'{file}', mode="a", encoding="UTF-8")
-f.write("<!-----Windows10----!>\n\n")
-f.write("<!-----Chrome----!>\n\n")
 
 
 def ft_load_time(click_me):
@@ -30,8 +24,18 @@ def ft_load_time(click_me):
     return str(load_time)
 
 
+res = []
 for link in click_me:
-    f.write('%-58s ' % link)
-    f.write(ft_load_time(link) + "\n")
+    res.append(ft_load_time(link))
 
-f.close()
+wb = load_workbook('info.XLSX')
+#wb.create_sheet(title='Время отклика', index=0)
+sheet = wb['Время отклика']
+sheet['C2'] = res[0]
+sheet['C10'] = res[1]
+sheet['C18'] = res[2]
+sheet['C26'] = res[3]
+sheet['C34'] = res[4]
+sheet['C42'] = res[5]
+sheet['C50'] = res[6]
+wb.save('info.XLSX')

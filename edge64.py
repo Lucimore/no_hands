@@ -1,5 +1,6 @@
+import time
 from selenium import webdriver
-import datetime, time
+from openpyxl import load_workbook
 
 click_me = ["Сервисы для поставщиков и потребителей информации",
             "Новости",
@@ -9,13 +10,9 @@ click_me = ["Сервисы для поставщиков и потребите�
             "Личный кабинет гражданина",
             "Кабинет аналитика"]
 
-file = datetime.datetime.now().strftime('%d%m_%H') + 'h_Win_10.txt'
-f = open(f'{file}', mode="a", encoding="UTF-8")
-f.write("\n\n<!-----Edge64-----!>\n\n")
-
 
 def ft_load_time(click_me):
-    driver = webdriver.Edge("msedgedriver64.exe")
+    driver = webdriver.Edge("msedgedriver32.exe")
     driver.get('http://egisso.ru/site/')
     test_page = driver.find_element_by_link_text(click_me)
     # driver.refresh()
@@ -27,8 +24,18 @@ def ft_load_time(click_me):
     return str(load_time)
 
 
+res = []
 for link in click_me:
-    f.write('%-58s ' % link)
-    f.write(ft_load_time(link) + "\n")
+    res.append(ft_load_time(link))
 
-f.close()
+wb = load_workbook('info.XLSX')
+# wb.create_sheet(title='Время отклика', index=0)
+sheet = wb['Время отклика']
+sheet['E3'] = res[0]
+sheet['E11'] = res[1]
+sheet['E19'] = res[2]
+sheet['E27'] = res[3]
+sheet['E35'] = res[4]
+sheet['E43'] = res[5]
+sheet['E51'] = res[6]
+wb.save('info.XLSX')

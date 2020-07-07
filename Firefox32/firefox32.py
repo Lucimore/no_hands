@@ -1,6 +1,4 @@
-import datetime
-import time
-
+from openpyxl import load_workbook
 from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
 
@@ -13,12 +11,6 @@ click_me = ["Сервисы для поставщиков и потребите�
             "Кабинет аналитика"]
 
 
-
-file = "C:\\Users\\admin\\Desktop\\test\\" + datetime.datetime.now().strftime('%d%m_%H') + 'h_Win_10.txt'
-f = open(f'{file}', mode="a", encoding="UTF-8")
-f.write("\n\n<!-----Firefox_32-----!>\n\n")
-
-
 def ft_load_time(click_me):
     driver = webdriver.Firefox()
     driver.get('http://egisso.ru/site/')
@@ -27,6 +19,7 @@ def ft_load_time(click_me):
     try:
         test_page.click()
         driver.refresh()
+        # time.sleep(5)  # - не влияет на load time
         load_time = driver.execute_script(
             "return (window.performance.timing.loadEventEnd - window.performance.timing.navigationStart);")
         driver.close()
@@ -36,8 +29,17 @@ def ft_load_time(click_me):
         return "There was an ERROR"
 
 
+res = []
 for link in click_me:
-    f.write('%-58s ' % link)
-    f.write(ft_load_time(link) + "\n")
+    res.append(ft_load_time(link))
 
-f.close()
+wb = load_workbook('C:/Users/ansible/Desktop/test/info.XLSX')
+sheet = wb['Время отклика']
+sheet['F2'] = res[0]
+sheet['F10'] = res[1]
+sheet['F18'] = res[2]
+sheet['F26'] = res[3]
+sheet['F34'] = res[4]
+sheet['F42'] = res[5]
+sheet['F50'] = res[6]
+wb.save('C:/Users/ansible/Desktop/test/info.XLSX')

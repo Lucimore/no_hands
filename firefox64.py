@@ -1,6 +1,4 @@
-import datetime
-import time
-
+from openpyxl import load_workbook
 from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
 
@@ -12,10 +10,6 @@ click_me = ["Сервисы для поставщиков и потребите�
             "Личный кабинет гражданина",
             "Кабинет аналитика"]
 
-file = datetime.datetime.now().strftime('%d%m_%H') + 'h_Win_10.txt'
-f = open(f'{file}', mode="a", encoding="UTF-8")
-f.write("\n\n<!-----Firefox_64-----!>\n\n")
-
 
 def ft_load_time(click_me):
     driver = webdriver.Firefox()
@@ -25,6 +19,7 @@ def ft_load_time(click_me):
     try:
         test_page.click()
         driver.refresh()
+        # time.sleep(5)  # - не влияет на load time
         load_time = driver.execute_script(
             "return (window.performance.timing.loadEventEnd - window.performance.timing.navigationStart);")
         driver.close()
@@ -34,8 +29,18 @@ def ft_load_time(click_me):
         return "There was an ERROR"
 
 
+res = []
 for link in click_me:
-    f.write('%-58s ' % link)
-    f.write(ft_load_time(link) + "\n")
+    res.append(ft_load_time(link))
 
-f.close()
+wb = load_workbook('info.XLSX')
+# wb.create_sheet(title='Время отклика', index=0)
+sheet = wb['Время отклика']
+sheet['F3'] = res[0]
+sheet['F11'] = res[1]
+sheet['F19'] = res[2]
+sheet['F27'] = res[3]
+sheet['F35'] = res[4]
+sheet['F43'] = res[5]
+sheet['F51'] = res[6]
+wb.save('info.XLSX')

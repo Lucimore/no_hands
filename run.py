@@ -5,6 +5,8 @@ begin_time = datetime.datetime.now()
 
 os.system('py chrome.py')
 print("%-40s " % "Chrome Done! Total Time: ", datetime.datetime.now() - begin_time)
+os.system('py chrome_64.py')
+print("%-40s " % "Chrome_64 Done! Total Time: ", datetime.datetime.now() - begin_time)
 # os.system('py ie.py') - Вероятно проблема с WebDriver IE, версии IE на ноуте и вм не совпадают, обновить ие не смог
 # print("%-40s " % "IE Done! Total Time: ", datetime.datetime.now() - begin_time)
 os.system('py edge32.py')
