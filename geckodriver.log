@@ -1,30 +1,30 @@
-1593941803424	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofiler8e64s"
+1594406414472	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile66TL5d"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593941809543	Marionette	INFO	Listening on port 57871
-1593941809884	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594406421262	Marionette	INFO	Listening on port 52102
+1594406421638	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593941825699	Marionette	INFO	Stopped listening on port 57871
-1593941830270	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile3ehwlX"
+1594406440399	Marionette	INFO	Stopped listening on port 52102
+1594406445014	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileVhcNdv"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593941835733	Marionette	INFO	Listening on port 57926
-1593941836289	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594406449957	Marionette	INFO	Listening on port 52210
+1594406450147	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593941852246	Marionette	INFO	Stopped listening on port 57926
+1594406466298	Marionette	INFO	Stopped listening on port 52210
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-1593941856807	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileFKfPTp"
+1594406471650	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilerBbutI"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593941862277	Marionette	INFO	Listening on port 57977
-1593941862347	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594406475979	Marionette	INFO	Listening on port 52264
+1594406476020	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593941878457	Marionette	INFO	Stopped listening on port 57977
-1593941882971	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile0URgVl"
+1594406492018	Marionette	INFO	Stopped listening on port 52264
+1594406496717	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileb3BOIT"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593941888360	Marionette	INFO	Listening on port 58028
-1593941888580	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594406501981	Marionette	INFO	Listening on port 52317
+1594406502322	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593941895544	Marionette	INFO	Stopped listening on port 58028
+1594406510105	Marionette	INFO	Stopped listening on port 52317
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
 
@@ -34,243 +34,207 @@ JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warnin
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
 
-1593941900291	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilebdztGh"
+1594406515108	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileZgX15S"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593941905488	Marionette	INFO	Listening on port 58083
-1593941905818	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594406520504	Marionette	INFO	Listening on port 52378
+1594406520955	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593941912734	Marionette	INFO	Stopped listening on port 58083
+1594406527825	Marionette	INFO	Stopped listening on port 52378
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1593941917459	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileGPLsCf"
+1594406532764	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile1RwBiq"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593941923443	Marionette	INFO	Listening on port 58141
-1593941923595	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593941930903	Marionette	INFO	Stopped listening on port 58141
-1593941936004	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileYlSy4E"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593941941123	Marionette	INFO	Listening on port 58238
-1593941941428	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594406537945	Marionette	INFO	Listening on port 52435
+1594406538315	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 57: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593941948490	Marionette	INFO	Stopped listening on port 58238
+1594406545784	Marionette	INFO	Stopped listening on port 52435
+1594406550905	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileo31kyV"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594406556079	Marionette	INFO	Listening on port 52486
+1594406556467	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
+1594406563469	Marionette	INFO	Stopped listening on port 52486
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
 
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
 
-1593942017398	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilemPmD2V"
+1594406568204	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileVO22OZ"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593942022507	Marionette	INFO	Listening on port 58346
-1593942022760	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594406573228	Marionette	INFO	Listening on port 52546
+1594406573309	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593942040386	Marionette	INFO	Stopped listening on port 58346
-1593942257423	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile7s95cp"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593942278545	Marionette	INFO	Listening on port 58542
-1593942278873	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593942291072	Marionette	INFO	Stopped listening on port 58542
-1593942536548	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile6ThSpo"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593942542240	Marionette	INFO	Listening on port 58704
-1593942542580	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593942553572	Marionette	INFO	Stopped listening on port 58704
-1593943470600	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilesE2K7t"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593943476273	Marionette	INFO	Listening on port 59246
-1593943476573	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
+1594406589894	Marionette	INFO	Stopped listening on port 52546
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1594406595421	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilevstDFp"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594406600274	Marionette	INFO	Listening on port 52615
+1594406600379	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
+1594406618463	Marionette	INFO	Stopped listening on port 52615
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1594408568169	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile37tYE5"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594408574224	Marionette	INFO	Listening on port 55917
+1594408574630	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
+1594408590469	Marionette	INFO	Stopped listening on port 55917
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1594408595402	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilevVbRfi"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594408601219	Marionette	INFO	Listening on port 56016
+1594408601284	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
+1594408617065	Marionette	INFO	Stopped listening on port 56016
+1594408622305	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileTjLvXu"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594408627978	Marionette	INFO	Listening on port 56068
+1594408628162	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
+1594408644301	Marionette	INFO	Stopped listening on port 56068
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1594408649398	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilexID7il"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594408654959	Marionette	INFO	Listening on port 56168
+1594408655396	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
+1594408662174	Marionette	INFO	Stopped listening on port 56168
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1594408666669	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilepsOhrY"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594408672472	Marionette	INFO	Listening on port 56221
+1594408672581	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
+1594408679482	Marionette	INFO	Stopped listening on port 56221
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1594408684967	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileUUAxd6"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594408690313	Marionette	INFO	Listening on port 56275
+1594408690466	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
+1594408697680	Marionette	INFO	Stopped listening on port 56275
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1594408702874	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileq2bEK3"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594408708423	Marionette	INFO	Listening on port 56327
+1594408708943	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
+1594408715560	Marionette	INFO	Stopped listening on port 56327
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1594408720223	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile7dDLp6"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594408725743	Marionette	INFO	Listening on port 56382
+1594408726087	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
+1594408741847	Marionette	INFO	Stopped listening on port 56382
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
 
-1593943488547	Marionette	INFO	Stopped listening on port 59246
-1593943595204	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileqXHP4r"
+1594408747080	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilegVvAwU"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593943599874	Marionette	INFO	Listening on port 59355
-1593943600152	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594408752091	Marionette	INFO	Listening on port 56435
+1594408752443	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593943630108	Marionette	INFO	Stopped listening on port 59355
-1593943683845	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileSLqT1h"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593943689034	Marionette	INFO	Listening on port 59413
-1593943689461	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
+1594408768860	Marionette	INFO	Stopped listening on port 56435
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-1593943700158	Marionette	INFO	Stopped listening on port 59413
-1593944069672	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileG3zXu8"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593944075324	Marionette	INFO	Listening on port 59668
-1593944075690	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593944141346	Marionette	INFO	Stopped listening on port 59668
-1593944228771	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile8Ry7cP"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593944234239	Marionette	INFO	Listening on port 59827
-1593944234838	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-1593944299318	Marionette	INFO	Stopped listening on port 59827
-1593944380072	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile1nOEAn"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593944385166	Marionette	INFO	Listening on port 59987
-1593944385477	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593944413017	Marionette	INFO	Stopped listening on port 59987
-1593945266224	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilergKHQj"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593945271887	Marionette	INFO	Listening on port 60578
-1593945272449	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593945288660	Marionette	INFO	Stopped listening on port 60578
-1593945885075	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileaHqosW"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593945890834	Marionette	INFO	Listening on port 61706
-1593945891126	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-1593950300680	Marionette	INFO	Stopped listening on port 61706
-rs\\admin\\AppData\\Local\\Temp\\rust_mozprofileOZwFfR"
+1594437639187	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile1UxrXs"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593946579680	Marionette	INFO	Listening on port 62859
-1593946580244	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594437644437	Marionette	INFO	Listening on port 54701
+1594437644630	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593946595994	Marionette	INFO	Stopped listening on port 62859
-1593946600550	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilewqb1dN"
+1594437660635	Marionette	INFO	Stopped listening on port 54701
+1594437666269	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilegGKMoS"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593946605771	Marionette	INFO	Listening on port 62946
-1593946605959	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594437671382	Marionette	INFO	Listening on port 54757
+1594437671682	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593946621895	Marionette	INFO	Stopped listening on port 62946
-1593946626416	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile6264ch"
+1594437688246	Marionette	INFO	Stopped listening on port 54757
+1594437693448	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilenByKfV"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593946631637	Marionette	INFO	Listening on port 62999
-1593946631852	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594437698946	Marionette	INFO	Listening on port 54851
+1594437699304	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593946647893	Marionette	INFO	Stopped listening on port 62999
-1593946652544	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilecMOeMK"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593946658000	Marionette	INFO	Listening on port 63099
-1593946658048	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593946665252	Marionette	INFO	Stopped listening on port 63099
+1594437715087	Marionette	INFO	Stopped listening on port 54851
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
 
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
-
-1593946669907	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilek82VfF"
+1594437720717	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile2jkonK"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593946675367	Marionette	INFO	Listening on port 63153
-1593946675930	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594437725429	Marionette	INFO	Listening on port 54907
+1594437725773	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593946682657	Marionette	INFO	Stopped listening on port 63153
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1593946687312	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileeKG8GY"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593946692579	Marionette	INFO	Listening on port 63207
-1593946692838	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593946700163	Marionette	INFO	Stopped listening on port 63207
-1593946705392	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile6AcpVE"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593946710550	Marionette	INFO	Listening on port 63258
-1593946711044	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593946718547	Marionette	INFO	Stopped listening on port 63258
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x39012D,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x39012D,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x39012D,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
-
-1593950688126	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilexv4ZIJ"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593950694304	Marionette	INFO	Listening on port 50031
-1593950694641	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593950711372	Marionette	INFO	Stopped listening on port 50031
-1593950716329	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile3G01iv"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593950722140	Marionette	INFO	Listening on port 50087
-1593950722203	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593950738400	Marionette	INFO	Stopped listening on port 50087
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1593950744188	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilecAYSAE"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593950749906	Marionette	INFO	Listening on port 50142
-1593950750201	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593950766375	Marionette	INFO	Stopped listening on port 50142
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1593950772017	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile2Z39bm"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593950778025	Marionette	INFO	Listening on port 50196
-1593950778109	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593950785413	Marionette	INFO	Stopped listening on port 50196
+1594437732747	Marionette	INFO	Stopped listening on port 54907
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
 
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
 
-1593950790411	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileUk3PAE"
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1594437737655	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile7v7hIs"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593950796546	Marionette	INFO	Listening on port 50253
-1593950796955	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594437742481	Marionette	INFO	Listening on port 54963
+1594437742631	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593950814360	Marionette	INFO	Stopped listening on port 50253
+1594437749880	Marionette	INFO	Stopped listening on port 54963
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-1593950820235	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilexQ2FuL"
+1594437754600	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileChBSFj"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593950826594	Marionette	INFO	Listening on port 50354
-1593950826827	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594437759486	Marionette	INFO	Listening on port 55066
+1594437759621	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593950834494	Marionette	INFO	Stopped listening on port 50354
+1594437767185	Marionette	INFO	Stopped listening on port 55066
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-1593950839626	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileIPve0H"
+1594437772286	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileAJ3e4t"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1593950845023	Marionette	INFO	Listening on port 50408
-1593950845199	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594437777020	Marionette	INFO	Listening on port 55117
+1594437777390	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
-1593950853315	Marionette	INFO	Stopped listening on port 50408
+1594437784577	Marionette	INFO	Stopped listening on port 55117
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1594437789565	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile3dCjN7"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594437794506	Marionette	INFO	Listening on port 55171
+1594437795003	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
+1594437810959	Marionette	INFO	Stopped listening on port 55171
+1594437816440	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileckvMdu"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594437821154	Marionette	INFO	Listening on port 55225
+1594437821366	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 56: WebGL warning: <Create>: getContext: Disallowing antialiased backbuffers due to blacklisting. (FEATURE_FAILURE_UNKNOWN_DEVICE_VENDOR)
+1594437837648	Marionette	INFO	Stopped listening on port 55225

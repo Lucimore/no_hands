@@ -1,8 +1,7 @@
-import datetime
 import time
-
 from selenium import webdriver
 from selenium.common.exceptions import UnexpectedAlertPresentException
+from openpyxl import load_workbook
 
 click_me = ["Сервисы для поставщиков и потребителей информации",
             "Новости",
@@ -10,21 +9,18 @@ click_me = ["Сервисы для поставщиков и потребите�
             "Кабинет поставщика информации",
             "Кабинет органа, назначающего меры социальной поддержки",
             "Личный кабинет гражданина",
-            "Кабинет аналитика"]
-
-file = datetime.datetime.now().strftime('%d%m_%H') + 'h_Win_10.txt'
-f = open(f'{file}', mode="a", encoding="UTF-8")
-f.write("\n\n<!-----InternetExplorer-----!>\n\n")
+            "Кабинет аналитика",
+            "Репозиторий документов ЕГИССО",
+            "Обратная связь"]
 
 
 def ft_load_time(click_me):
     driver = webdriver.Ie("IEDriverServer.exe")
     driver.get('http://egisso.ru/site/')
     test_page = driver.find_element_by_link_text(click_me)
-    # driver.refresh()
     try:
         test_page.click()
-        # time.sleep(5)  # - не влияет на load time
+        time.sleep(5)
         load_time = driver.execute_script(
             "return (window.performance.timing.loadEventEnd - window.performance.timing.navigationStart);")
         driver.close()
@@ -34,9 +30,19 @@ def ft_load_time(click_me):
         return "There was an ERROR"
 
 
-
+res = []
 for link in click_me:
-    f.write('%-58s ' % link)
-    f.write(ft_load_time(link) + "\n")
+    res.append(ft_load_time(link))
 
-f.close()
+wb = load_workbook('info10.XLSX')
+sheet = wb['Время отклика']
+sheet['D8'] = res[0]
+sheet['D16'] = res[1]
+sheet['D24'] = res[2]
+sheet['D32'] = res[3]
+sheet['D40'] = res[4]
+sheet['D48'] = res[5]
+sheet['D56'] = res[6]
+sheet['D64'] = res[7]
+sheet['D72'] = res[8]
+wb.save('info10.XLSX')

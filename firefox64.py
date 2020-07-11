@@ -8,7 +8,9 @@ click_me = ["Сервисы для поставщиков и потребите�
             "Кабинет поставщика информации",
             "Кабинет органа, назначающего меры социальной поддержки",
             "Личный кабинет гражданина",
-            "Кабинет аналитика"]
+            "Кабинет аналитика",
+            "Репозиторий документов ЕГИССО",
+            "Обратная связь"]
 
 
 def ft_load_time(click_me):
@@ -19,7 +21,7 @@ def ft_load_time(click_me):
     try:
         test_page.click()
         driver.refresh()
-        # time.sleep(5)  # - не влияет на load time
+        # time.sleep(5)  # - не влияет на load time -надо проверить со значением > 15
         load_time = driver.execute_script(
             "return (window.performance.timing.loadEventEnd - window.performance.timing.navigationStart);")
         driver.close()
@@ -33,14 +35,15 @@ res = []
 for link in click_me:
     res.append(ft_load_time(link))
 
-wb = load_workbook('info.XLSX')
-# wb.create_sheet(title='Время отклика', index=0)
+wb = load_workbook('info10.XLSX')
 sheet = wb['Время отклика']
-sheet['F3'] = res[0]
-sheet['F11'] = res[1]
-sheet['F19'] = res[2]
-sheet['F27'] = res[3]
-sheet['F35'] = res[4]
-sheet['F43'] = res[5]
-sheet['F51'] = res[6]
-wb.save('info.XLSX')
+sheet['F9'] = res[0]
+sheet['F17'] = res[1]
+sheet['F25'] = res[2]
+sheet['F33'] = res[3]
+sheet['F41'] = res[4]
+sheet['F49'] = res[5]
+sheet['F57'] = res[6]
+sheet['F65'] = res[7]
+sheet['F73'] = res[8]
+wb.save('info10.XLSX')

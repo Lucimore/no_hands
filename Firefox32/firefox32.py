@@ -8,7 +8,9 @@ click_me = ["Сервисы для поставщиков и потребите�
             "Кабинет поставщика информации",
             "Кабинет органа, назначающего меры социальной поддержки",
             "Личный кабинет гражданина",
-            "Кабинет аналитика"]
+            "Кабинет аналитика",
+            "Репозиторий документов ЕГИССО",
+            "Обратная связь"]
 
 
 def ft_load_time(click_me):
@@ -19,7 +21,6 @@ def ft_load_time(click_me):
     try:
         test_page.click()
         driver.refresh()
-        # time.sleep(5)  # - не влияет на load time
         load_time = driver.execute_script(
             "return (window.performance.timing.loadEventEnd - window.performance.timing.navigationStart);")
         driver.close()
@@ -28,18 +29,19 @@ def ft_load_time(click_me):
         driver.close()
         return "There was an ERROR"
 
-
 res = []
 for link in click_me:
     res.append(ft_load_time(link))
 
-wb = load_workbook('C:/Users/ansible/Desktop/test/info.XLSX')
+wb = load_workbook('C:\\Users\\admin\\Desktop\\test\\info10.XLSX')
 sheet = wb['Время отклика']
-sheet['F2'] = res[0]
-sheet['F10'] = res[1]
-sheet['F18'] = res[2]
-sheet['F26'] = res[3]
-sheet['F34'] = res[4]
-sheet['F42'] = res[5]
-sheet['F50'] = res[6]
-wb.save('C:/Users/ansible/Desktop/test/info.XLSX')
+sheet['F8'] = res[0]
+sheet['F16'] = res[1]
+sheet['F24'] = res[2]
+sheet['F32'] = res[3]
+sheet['F40'] = res[4]
+sheet['F48'] = res[5]
+sheet['F56'] = res[6]
+sheet['F64'] = res[7]
+sheet['F72'] = res[8]
+wb.save('C:\\Users\\admin\\Desktop\\test\\info10.XLSX')
